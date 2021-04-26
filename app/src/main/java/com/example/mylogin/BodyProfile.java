@@ -225,23 +225,23 @@ public class BodyProfile extends AppCompatActivity {
 
         if (result < 18.5) {
             BMILevel.setText("Underweight");
-            BMILevel.setTextColor(Color.parseColor("#FF0026FF"));
+            BMILevel.setTextColor(Color.parseColor("#1457d0"));
         }
         else if (18.5 <= result && result <= 22.9) {
             BMILevel.setText("Normal");
-            BMILevel.setTextColor(Color.parseColor("#FF299E00"));
+            BMILevel.setTextColor(Color.parseColor("#1457d0"));
         } else if (23 <= result && result <= 24.9) {
             BMILevel.setText("Overweight");
-            BMILevel.setTextColor(Color.parseColor("#FFFFB300"));
+            BMILevel.setTextColor(Color.parseColor("#1457d0"));
         } else if (25 <= result && result <= 29.9) {
             BMILevel.setText("Obese I");
-            BMILevel.setTextColor(Color.parseColor("#FFFF6600"));
+            BMILevel.setTextColor(Color.parseColor("#1457d0"));
         } else if (30 <= result && result <= 34.9) {
             BMILevel.setText("Obese II");
-            BMILevel.setTextColor(Color.parseColor("#FFFF3300"));
+            BMILevel.setTextColor(Color.parseColor("#1457d0"));
         } else if (30 <= result) {
             BMILevel.setText("Obese III");
-            BMILevel.setTextColor(Color.parseColor("#FFCC0000"));
+            BMILevel.setTextColor(Color.parseColor("#1457d0"));
         }
 
     }

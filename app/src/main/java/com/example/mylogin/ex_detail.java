@@ -21,10 +21,6 @@ public class ex_detail extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ex_detail);
 
-        //뒤로가기 누르면 main으로 돌아가기
-        ActionBar actionBar =getSupportActionBar();
-        //액션바 제목설정 actionBar.setTitle("안녕하세요");
-        actionBar.setDisplayHomeAsUpEnabled(true);
 
 
         vv= findViewById(R.id.vv);
